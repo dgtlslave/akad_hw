@@ -1,0 +1,171 @@
+
+.wedo {
+
+  margin: 150px 0 163px;
+
+  &__description {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    line-height: 30px;
+    font-size: 14px;
+
+    &--position {
+      padding-left: 190px;
+      padding-right: 190px;
+    }
+
+    &--mar-bottom {
+      margin-bottom: 65px;
+    }
+  }
+}
+
+.benefits {
+
+  &--position {
+    margin-bottom: 100px;
+  }
+
+  &__article {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+
+    &--iphone {
+      padding-left: 60px;
+      position: relative;
+
+      &::before {
+        content: url(../img/iphone.png);
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &--infinity {
+      padding-left: 60px;
+      position: relative;
+
+      &::before {
+        content: url(../img/infinity.png);
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &--wp {
+      padding-left: 60px;
+      position: relative;
+
+      &::before {
+        content: url(../img/wp.png);
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &--basket {
+      padding-left: 60px;
+      position: relative;
+
+      &::before {
+        content: url(../img/basket.png);
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &--custom {
+      padding-left: 60px;
+      position: relative;
+
+      &::before {
+        content: url(../img/custom.png);
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &--support {
+      padding-left: 60px;
+      position: relative;
+
+      &::before {
+        content: url(../img/support.png);
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+}
+
+.team {
+  margin-top: 65px;
+}
+
+.readmore {
+  margin-bottom: 150px;
+
+  &--bg {
+    background: #efeff0;
+  }
+
+  &__text {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 152px;
+    padding-left: 16px;
+    padding-right: 142px;
+  }
+}
+
+.johndoe {
+  margin-bottom: 150px;
+
+  &--box {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    max-width: 167px;
+    line-height: 102px;
+    margin-bottom: 30px;
+    transition: background, .4s; 
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.15);
+    }
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  &--text {
+    margin-top: 27px;
+    margin-bottom: 25px;
+  }
+
+  &--button {
+    width: 101px;
+    height: 31px;
+    line-height: 31px;
+
+    &:hover {
+      background: #fff;
+    }
+  }
+}
